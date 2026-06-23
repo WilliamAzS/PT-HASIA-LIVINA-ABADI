@@ -1,68 +1,82 @@
 # PT Hasia Livina Abadi Website
 
-A premium static company-profile website for **PT Hasia Livina Abadi (PT HLA)**, designed around industrial heavy equipment solutions.
+Website company profile modern untuk **PT HASIA LIVINA ABADI** dengan positioning utama sebagai penyedia solusi alat berat industri, forklift rental, sparepart, ban solid, service, overhaul, dan restorasi.
 
-## Website positioning
+## Fitur versi terbaru
 
-**Tagline:** Reliable Heavy Equipment Solutions for Industrial Growth
+- Tampilan lebih eye-catching dengan gaya industrial premium.
+- Default bahasa Indonesia dengan pilihan bahasa Indonesia, English, Japanese, dan Chinese (Simplified).
+- Toggle tema Dark / Light dengan preferensi tersimpan di browser.
+- Hero section interaktif dengan CTA quotation.
+- Quick WhatsApp quote builder.
+- Service tabs interaktif untuk Rental, Sales, Sparepart, Ban Solid, dan Service.
+- Animated counters, reveal animation, hover/tilt card effect.
+- Galeri foto dengan modal preview.
+- FAQ accordion.
+- Form quotation yang otomatis membuka WhatsApp.
+- Google Maps embed dan kontak lengkap.
+- Responsive untuk desktop, tablet, dan mobile.
 
-The website focuses on PT HLA as an industrial heavy equipment solutions provider, not only a forklift rental company. Main offerings included:
+## Struktur file
 
-- Forklift rental and service specialist: daily, monthly, yearly rental
-- Forklift sales and trading: Mitsubishi, Toyota, Caterpillar, Nichiyu
-- Forklift spare parts supply
-- Solid tire / industrial tire solutions
-- Heavy equipment maintenance and repair
-- Engine overhaul and restoration services
-- Industrial lifting solutions for warehouse, manufacturing, and logistics sectors
+```text
+index.html
+styles.css
+script.js
+assets/
+  favicon.svg
+  logo.svg
+  whatsapp.svg
+  og-preview.svg
+  social-cover.jpg
+  social-fleet.jpg
+  social-gallery.jpg
+  social-rental.jpg
+  social-restoration.jpg
+research-notes.md
+```
 
-## Files
+## Cara menjalankan lokal
 
-- `index.html` — complete single-page website
-- `styles.css` — premium industrial styling, dark navy + orange/yellow accent
-- `script.js` — mobile menu, scroll animation, WhatsApp quotation form
-- `assets/` — logo, favicon, and public social-media images used as gallery/hero assets
-- `research-notes.md` — source notes and content basis
+Cukup buka file `index.html` di browser.
 
-## How to run locally
-
-Open `index.html` directly in a browser, or serve the folder with a simple local server:
+Untuk development lokal yang lebih aman, jalankan server sederhana:
 
 ```bash
 python -m http.server 8000
 ```
 
-Then open:
+Lalu buka:
 
 ```text
 http://localhost:8000
 ```
 
-## Deployment
+## Cara upload ke GitHub
 
-You can deploy this to Vercel, Netlify, GitHub Pages, or any static hosting provider.
+```cmd
+cd "D:\PT HASIA LIVINA ABADI WEBSITE\pt-hasia-livina-abadi-website"
+git add .
+git commit -m "Add Japanese and Chinese translations with improved branding"
+git push
+```
 
-For Vercel:
+Jika repository belum pernah dibuat / belum ada remote:
 
-1. Upload this folder to GitHub.
-2. Import the repository in Vercel.
-3. Use the default static project settings.
-4. Deploy.
+```cmd
+git init
+git add .
+git commit -m "Initial website for PT Hasia Livina Abadi"
+git branch -M main
+git remote add origin https://github.com/WilliamAzS/PT-HASIA-LIVINA-ABADI.git
+git push -u origin main
+```
 
-## Notes about photos
+## Catatan edit konten
 
-The photos in `assets/social-*.jpg` were taken from public PT HLA social-media/public profile assets available online at the time of research, especially PT HLA LinkedIn media. Since social-media image URLs can expire or change, the images are downloaded locally into the project so the website remains stable.
-
-Before final production publishing, replace these with official high-resolution company-approved files if available.
-
-## Editable contact details
-
-Current contact information used in the website:
-
-- Address: Ruko Palazzo Blok AB No.65, Jl. Villa Mutiara Cikarang, Ciantra, Cikarang Selatan, Bekasi, Jawa Barat 17530
-- Phone: (021) 897 5607 / 08
-- WhatsApp: 081585267190
-- Email: hasialivina.abadi@gmail.com
-- Instagram: https://www.instagram.com/pt.hla/
-- LinkedIn: https://id.linkedin.com/company/pt-hla
-"# PT-HASIA-LIVINA-ABADI" 
+- Nomor WhatsApp ada di `index.html` dan `script.js`: `6281585267190`.
+- Email ada di `index.html`: `hasialivina.abadi@gmail.com`.
+- Gambar bisa diganti di folder `assets/` dengan nama file yang sama agar tidak perlu mengubah kode.
+- Terjemahan Indonesia/English/Japanese/Chinese ada di object `translations` pada file `script.js`.
+- `assets/logo.svg` adalah logo HLA custom yang lebih premium; ganti dengan logo resmi perusahaan jika sudah tersedia.
+- `assets/whatsapp.svg` dipakai untuk tombol WhatsApp dan floating contact button.

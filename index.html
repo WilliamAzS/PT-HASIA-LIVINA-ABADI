@@ -1,18 +1,18 @@
 <!doctype html>
-<html lang="en">
+<html lang="id" data-theme="dark">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>PT Hasia Livina Abadi | Heavy Equipment, Forklift Rental, Spare Parts & Industrial Tires</title>
+    <title>PT Hasia Livina Abadi | Solusi Alat Berat, Rental Forklift, Sparepart & Ban Solid</title>
     <meta
       name="description"
-      content="PT Hasia Livina Abadi provides reliable heavy equipment solutions for industrial growth: forklift rental, forklift sales, spare parts, solid tires, maintenance, repair, overhaul, and restoration services in Cikarang, Bekasi."
+      content="PT Hasia Livina Abadi menyediakan solusi alat berat industri: rental forklift harian, bulanan, tahunan, sparepart forklift, ban solid, maintenance, repair, overhaul, restorasi, dan industrial lifting solution di Cikarang, Bekasi."
     />
-    <meta name="keywords" content="PT Hasia Livina Abadi, PT HLA, forklift rental Cikarang, forklift service Bekasi, forklift spare parts, solid tire, heavy equipment, engine overhaul, rental forklift" />
+    <meta name="keywords" content="PT Hasia Livina Abadi, PT HLA, rental forklift Cikarang, service forklift Bekasi, sparepart forklift, ban solid forklift, alat berat, engine overhaul, rental forklift harian bulanan tahunan" />
     <meta name="theme-color" content="#07111f" />
-    <meta property="og:title" content="PT Hasia Livina Abadi | Heavy Equipment Solutions" />
-    <meta property="og:description" content="Reliable Heavy Equipment Solutions for Industrial Growth. Forklift Rental • Spare Parts • Industrial Tires • Maintenance Service." />
-    <meta property="og:image" content="assets/social-fleet.jpg" />
+    <meta property="og:title" content="PT Hasia Livina Abadi | Reliable Heavy Equipment Solutions" />
+    <meta property="og:description" content="Rental Forklift • Sparepart • Ban Solid • Maintenance • Heavy Equipment Service" />
+    <meta property="og:image" content="assets/og-preview.svg" />
     <meta property="og:type" content="website" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
@@ -39,233 +39,301 @@
     </script>
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="loader" data-loader aria-hidden="true">
+      <div class="loader-mark"><span></span><span></span><span></span></div>
+      <p>PT HLA</p>
+    </div>
+
+    <div class="scroll-progress" data-scroll-progress></div>
+    <a class="skip-link" href="#main">Lewati ke konten utama</a>
 
     <header class="site-header" data-header>
-      <nav class="nav-shell" aria-label="Main navigation">
+      <nav class="nav-shell" aria-label="Navigasi utama">
         <a class="brand" href="#home" aria-label="PT Hasia Livina Abadi home">
-          <img src="assets/logo.svg" alt="PT Hasia Livina Abadi logo" />
+          <img src="assets/logo.svg" alt="Logo PT Hasia Livina Abadi" />
           <span>
             <strong>PT HASIA LIVINA ABADI</strong>
-            <small>Reliable Heavy Equipment Solutions</small>
+            <small data-i18n="brandTag">Solusi Alat Berat Industri</small>
           </span>
         </a>
 
-        <button class="menu-toggle" type="button" aria-label="Open navigation" data-menu-toggle>
+        <button class="menu-toggle" type="button" aria-label="Buka navigasi" data-menu-toggle>
           <span></span>
           <span></span>
           <span></span>
         </button>
 
         <div class="nav-links" data-menu>
-          <a href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#industries">Industries</a>
-          <a href="#gallery">Gallery</a>
-          <a href="#contact">Contact</a>
-          <a class="nav-cta" href="https://wa.me/6281585267190?text=Hello%20PT%20HLA%2C%20I%20would%20like%20to%20request%20a%20quotation." target="_blank" rel="noreferrer">Request Quote</a>
+          <a href="#about" data-i18n="navAbout">Tentang</a>
+          <a href="#services" data-i18n="navServices">Layanan</a>
+          <a href="#solutions" data-i18n="navSolutions">Solusi</a>
+          <a href="#gallery" data-i18n="navGallery">Galeri</a>
+          <a href="#contact" data-i18n="navContact">Kontak</a>
+          <div class="nav-controls" aria-label="Pengaturan tampilan">
+            <button class="control-btn theme-toggle" type="button" data-theme-toggle aria-label="Ganti tema">
+              <span class="sun">☀</span>
+              <span class="moon">☾</span>
+            </button>
+            <div class="language-switcher" aria-label="Pilih bahasa">
+              <button class="language-option is-active" type="button" data-lang-option="id">ID</button>
+              <button class="language-option" type="button" data-lang-option="en">EN</button>
+              <button class="language-option" type="button" data-lang-option="ja">日本</button>
+              <button class="language-option" type="button" data-lang-option="zh">中文</button>
+            </div>
+          </div>
+          <a class="nav-cta" href="https://wa.me/6281585267190?text=Halo%20PT%20HLA%2C%20saya%20ingin%20meminta%20penawaran." target="_blank" rel="noreferrer">
+            <img src="assets/whatsapp.svg" alt="" aria-hidden="true" />
+            <span data-i18n="requestQuote">Minta Penawaran</span>
+          </a>
         </div>
       </nav>
     </header>
 
     <main id="main">
       <section class="hero" id="home" aria-labelledby="hero-title">
-        <div class="hero-background" role="img" aria-label="Forklift and industrial heavy equipment fleet"></div>
+        <div class="hero-background" role="img" aria-label="Armada forklift dan alat berat industri"></div>
         <div class="hero-overlay"></div>
+        <div class="hero-orbit" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+
         <div class="container hero-grid">
           <div class="hero-copy reveal">
-            <p class="eyebrow">Cikarang-based Industrial Equipment Partner</p>
-            <h1 id="hero-title">Powering industry with reliable heavy equipment solutions</h1>
-            <p class="hero-lead">Forklift Rental • Spare Parts • Industrial Tires • Maintenance Service</p>
-            <p class="hero-description">
-              PT Hasia Livina Abadi provides complete solutions for material handling, warehouse operations, and heavy equipment needs across manufacturing, logistics, warehouse, and industrial sectors.
+            <p class="eyebrow" data-i18n="heroEyebrow">Partner Alat Berat Industri di Cikarang</p>
+            <h1 id="hero-title" data-i18n="heroTitle">Mendorong Industri dengan Solusi Alat Berat yang Andal</h1>
+            <p class="hero-lead" data-i18n="heroLead">Rental Forklift • Sparepart • Ban Solid • Service Alat Berat</p>
+            <p class="hero-description" data-i18n="heroDesc">
+              PT Hasia Livina Abadi menyediakan solusi lengkap untuk material handling, operasional gudang, kebutuhan forklift, ban industri, sparepart, maintenance, overhaul, dan restorasi alat berat.
             </p>
             <div class="hero-actions">
-              <a class="btn btn-primary" href="https://wa.me/6281585267190?text=Hello%20PT%20HLA%2C%20I%20would%20like%20to%20request%20a%20quotation%20for%20heavy%20equipment%20support." target="_blank" rel="noreferrer">Request Quote</a>
-              <a class="btn btn-secondary" href="#services">Our Services</a>
+              <a class="btn btn-primary magnetic" href="#quote-form" data-i18n="requestQuote">Minta Penawaran</a>
+              <a class="btn btn-secondary magnetic" href="#services" data-i18n="seeServices">Lihat Layanan</a>
             </div>
-            <div class="trust-row" aria-label="Company highlights">
-              <span><strong>2013</strong> Founded</span>
-              <span><strong>11–50</strong> Company size</span>
-              <span><strong>Cikarang</strong> Industrial area</span>
+            <div class="trust-row" aria-label="Highlight perusahaan">
+              <span><strong data-counter="10">0</strong><em>+</em><small data-i18n="expYears">Tahun pengalaman</small></span>
+              <span><strong>Cikarang</strong><small data-i18n="industrialArea">Area industri Bekasi</small></span>
+              <span><strong>360°</strong><small data-i18n="completeSupport">Rental, parts, tire, service</small></span>
             </div>
           </div>
 
-          <aside class="quote-card reveal" aria-label="Fast quotation card">
-            <div class="status-pill"><span></span> Ready for industrial support</div>
-            <h2>Need forklift or heavy equipment support?</h2>
-            <p>Tell us the capacity, rental period, location, and operational requirements. Our team will help recommend the right unit, parts, tire, or service solution.</p>
-            <a class="quote-link" href="#quote-form">Start an inquiry <span aria-hidden="true">→</span></a>
+          <aside class="quote-card reveal" aria-label="Kartu penawaran cepat">
+            <div class="status-pill"><span></span><b data-i18n="readySupport">Siap mendukung operasional industri</b></div>
+            <h2 data-i18n="quoteCardTitle">Butuh forklift atau support alat berat?</h2>
+            <p data-i18n="quoteCardDesc">Pilih layanan, periode, dan kebutuhan kapasitas. Sistem akan membuat pesan WhatsApp siap kirim ke tim PT HLA.</p>
+
+            <div class="mini-builder" data-mini-builder>
+              <label for="quickService" data-i18n="quickServiceLabel">Kebutuhan utama</label>
+              <select id="quickService" data-quick-service>
+                <option value="Rental Forklift" data-i18n="serviceRental">Rental Forklift</option>
+                <option value="Sparepart Forklift" data-i18n="serviceParts">Sparepart Forklift</option>
+                <option value="Ban Solid / Ban Industri" data-i18n="serviceTires">Ban Solid / Ban Industri</option>
+                <option value="Maintenance / Repair" data-i18n="serviceMaintenance">Maintenance / Repair</option>
+                <option value="Engine Overhaul / Restorasi" data-i18n="serviceOverhaul">Engine Overhaul / Restorasi</option>
+              </select>
+
+              <div class="period-picker" role="group" aria-label="Periode rental">
+                <button type="button" class="is-selected" data-period="daily" data-i18n="periodDaily">Harian</button>
+                <button type="button" data-period="monthly" data-i18n="periodMonthly">Bulanan</button>
+                <button type="button" data-period="yearly" data-i18n="periodYearly">Tahunan</button>
+              </div>
+              <a class="quote-link" data-quick-whatsapp href="https://wa.me/6281585267190" target="_blank" rel="noreferrer">
+                <img src="assets/whatsapp.svg" alt="" aria-hidden="true" />
+                <span data-i18n="whatsappTeam">Konsultasi via WhatsApp</span>
+                <span aria-hidden="true">→</span>
+              </a>
+            </div>
           </aside>
+        </div>
+      </section>
+
+      <section class="section logo-strip" aria-label="Brand forklift yang didukung">
+        <div class="container strip-shell reveal">
+          <span data-i18n="brandSupport">Mendukung kebutuhan unit dari brand terpercaya</span>
+          <div class="marquee" aria-hidden="true">
+            <div class="marquee-track">
+              <b>Mitsubishi</b><b>Toyota</b><b>Caterpillar</b><b>Nichiyu</b><b>Forklift</b><b>Sparepart</b><b>Solid Tire</b>
+              <b>Mitsubishi</b><b>Toyota</b><b>Caterpillar</b><b>Nichiyu</b><b>Forklift</b><b>Sparepart</b><b>Solid Tire</b>
+            </div>
+          </div>
         </div>
       </section>
 
       <section class="section about-section" id="about" aria-labelledby="about-title">
         <div class="container two-column">
           <div class="section-copy reveal">
-            <p class="eyebrow dark">About Us</p>
-            <h2 id="about-title">PT Hasia Livina Abadi</h2>
-            <h3>Your trusted partner in heavy equipment solutions</h3>
-            <p>
-              PT Hasia Livina Abadi is an industrial equipment company specializing in forklift solutions, heavy equipment rental, spare parts supply, industrial tires, maintenance, repair, engine overhaul, and restoration services.
+            <p class="eyebrow dark" data-i18n="aboutEyebrow">Tentang Kami</p>
+            <h2 id="about-title" data-i18n="aboutTitle">PT Hasia Livina Abadi</h2>
+            <h3 data-i18n="aboutSubtitle">Partner terpercaya untuk solusi alat berat dan material handling.</h3>
+            <p data-i18n="aboutP1">
+              PT Hasia Livina Abadi adalah perusahaan industrial equipment yang berfokus pada solusi forklift, rental alat berat, supply sparepart, ban solid, maintenance, repair, engine overhaul, dan restorasi.
             </p>
-            <p>
-              Based in Cikarang, Bekasi, PT HLA is strategically positioned near factories, warehouses, logistics hubs, and industrial estates that require dependable material-handling support and fast technical response.
+            <p data-i18n="aboutP2">
+              Berbasis di Cikarang, Bekasi, PT HLA berada dekat dengan kawasan pabrik, gudang, logistics hub, dan area industri yang membutuhkan peralatan andal serta respons teknis yang cepat.
             </p>
-            <div class="commitment-list" aria-label="Our commitment">
-              <span>Reliable equipment</span>
-              <span>Professional service</span>
-              <span>Fast technical support</span>
-              <span>Long-term partnership</span>
+            <div class="commitment-list" aria-label="Komitmen perusahaan">
+              <span data-i18n="commitment1">Peralatan andal</span>
+              <span data-i18n="commitment2">Service profesional</span>
+              <span data-i18n="commitment3">Respons teknis cepat</span>
+              <span data-i18n="commitment4">Kemitraan jangka panjang</span>
             </div>
           </div>
-          <div class="about-media reveal">
-            <img src="assets/social-rental.jpg" alt="Forklift rental units on a truck from PT Hasia Livina Abadi social media" />
+          <div class="about-media reveal tilt-card" data-tilt>
+            <img src="assets/social-rental.jpg" alt="Unit forklift PT HLA sedang dikirim untuk rental" />
             <div class="floating-metric">
-              <strong>Reliable Lifting Solutions</strong>
-              <span>Rental • Sales • Service • Tires • Parts</span>
+              <strong data-i18n="metricTitle">Reliable Lifting Solutions</strong>
+              <span data-i18n="metricDesc">Rental • Sales • Service • Tires • Parts</span>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section stats-band" aria-label="Service strengths">
-        <div class="container stat-grid">
-          <div class="stat-card reveal"><strong>Daily</strong><span>Short-term forklift rental</span></div>
-          <div class="stat-card reveal"><strong>Monthly</strong><span>Operational contract support</span></div>
-          <div class="stat-card reveal"><strong>Yearly</strong><span>Long-term industrial partnership</span></div>
-          <div class="stat-card reveal"><strong>One Partner</strong><span>Rental, parts, tire, and service</span></div>
-        </div>
-      </section>
-
-      <section class="section services-section" id="services" aria-labelledby="services-title">
+      <section class="section service-tabs-section" id="services" aria-labelledby="services-title">
         <div class="container">
           <div class="section-heading reveal">
-            <p class="eyebrow dark">What We Offer</p>
-            <h2 id="services-title">Complete industrial heavy equipment support</h2>
-            <p>
-              From forklift rental and unit trading to spare parts, solid tires, heavy equipment maintenance, engine overhaul, and restoration, PT HLA supports daily operations with practical, field-ready solutions.
+            <p class="eyebrow dark" data-i18n="servicesEyebrow">Layanan Utama</p>
+            <h2 id="services-title" data-i18n="servicesTitle">Satu partner untuk kebutuhan alat berat industri</h2>
+            <p data-i18n="servicesIntro">
+              Dari rental forklift, penjualan unit, sparepart, ban solid, maintenance, repair, overhaul, sampai restorasi — PT HLA membantu menjaga operasional tetap produktif.
             </p>
           </div>
 
-          <div class="service-stack">
-            <article class="service-feature reveal">
-              <div class="service-image"><img src="assets/social-gallery.jpg" alt="Forklift fleet and industrial equipment gallery from PT HLA social media" /></div>
-              <div class="service-content">
-                <span class="service-number">01</span>
-                <h3>Forklift Rental Solution</h3>
-                <p>Flexible rental solutions designed for operational needs in manufacturing plants, warehouses, logistics operations, and construction projects.</p>
-                <div class="chip-row">
-                  <span>Daily rental</span>
-                  <span>Monthly contract</span>
-                  <span>Yearly partnership</span>
+          <div class="interactive-tabs reveal" data-tabs>
+            <div class="tab-list" role="tablist" aria-label="Layanan PT HLA">
+              <button class="tab-btn is-active" type="button" role="tab" aria-selected="true" data-tab="rental" data-i18n="tabRental">Rental Forklift</button>
+              <button class="tab-btn" type="button" role="tab" aria-selected="false" data-tab="sales" data-i18n="tabSales">Sales & Trading</button>
+              <button class="tab-btn" type="button" role="tab" aria-selected="false" data-tab="parts" data-i18n="tabParts">Sparepart</button>
+              <button class="tab-btn" type="button" role="tab" aria-selected="false" data-tab="tires" data-i18n="tabTires">Ban Solid</button>
+              <button class="tab-btn" type="button" role="tab" aria-selected="false" data-tab="service" data-i18n="tabService">Service</button>
+            </div>
+
+            <article class="tab-panel is-active" data-panel="rental">
+              <div>
+                <span class="panel-number">01</span>
+                <h3 data-i18n="rentalTitle">Forklift Rental Solution</h3>
+                <p data-i18n="rentalDesc">Solusi rental fleksibel untuk kebutuhan operasional pabrik, warehouse, logistics operation, dan project construction.</p>
+                <ul class="check-list">
+                  <li data-i18n="dailyRental">Rental harian untuk kebutuhan cepat</li>
+                  <li data-i18n="monthlyContract">Kontrak bulanan untuk operasional rutin</li>
+                  <li data-i18n="yearlyPartnership">Kerja sama tahunan untuk kebutuhan jangka panjang</li>
+                </ul>
+              </div>
+              <img src="assets/social-gallery.jpg" alt="Galeri unit forklift PT HLA" />
+            </article>
+
+            <article class="tab-panel" data-panel="sales">
+              <div>
+                <span class="panel-number">02</span>
+                <h3 data-i18n="salesTitle">Forklift Sales & Trading</h3>
+                <p data-i18n="salesDesc">Penyediaan unit forklift berkualitas dari brand terpercaya sesuai kapasitas, area kerja, jenis bahan bakar, dan durasi penggunaan.</p>
+                <div class="brand-row"><span>Mitsubishi</span><span>Toyota</span><span>Caterpillar</span><span>Nichiyu</span></div>
+              </div>
+              <img src="assets/social-fleet.jpg" alt="Armada forklift PT HLA" />
+            </article>
+
+            <article class="tab-panel" data-panel="parts">
+              <div>
+                <span class="panel-number">03</span>
+                <h3 data-i18n="partsTitle">Forklift Spare Parts</h3>
+                <p data-i18n="partsDesc">Dukungan sparepart untuk menjaga equipment tetap berjalan dan meminimalkan downtime operasional.</p>
+                <div class="parts-grid">
+                  <span>Filter</span><span>Piston</span><span>Gasket</span><span>Radiator</span><span>Starter</span><span>Hydraulic Pump</span><span>Hose</span><span>Cylinder</span><span>Valve</span><span>Controller</span><span>Sensor</span><span>Brake System</span>
                 </div>
               </div>
+              <img src="assets/social-restoration.jpg" alt="Service dan restorasi forklift PT HLA" />
             </article>
 
-            <article class="service-feature reverse reveal">
-              <div class="service-image"><img src="assets/social-fleet.jpg" alt="PT HLA forklift fleet in warehouse" /></div>
-              <div class="service-content">
-                <span class="service-number">02</span>
-                <h3>Forklift Sales & Trading</h3>
-                <p>Providing quality forklift units from trusted manufacturers and helping customers select the right lifting solution based on capacity, working environment, fuel type, and operational duration.</p>
-                <div class="brand-row" aria-label="Available brands">
-                  <span>Mitsubishi</span>
-                  <span>Toyota</span>
-                  <span>Caterpillar</span>
-                  <span>Nichiyu</span>
-                </div>
+            <article class="tab-panel" data-panel="tires">
+              <div>
+                <span class="panel-number">04</span>
+                <h3 data-i18n="tiresTitle">Industrial Tire / Solid Tire</h3>
+                <p data-i18n="tiresDesc">Solusi ban industri yang tahan lama untuk operasi heavy-duty, beban berat, dan penggunaan intensif di area warehouse.</p>
+                <ul class="check-list">
+                  <li data-i18n="tireBenefit1">Durability tinggi</li>
+                  <li data-i18n="tireBenefit2">Mendukung beban berat</li>
+                  <li data-i18n="tireBenefit3">Membantu mengurangi downtime</li>
+                </ul>
               </div>
-            </article>
-          </div>
-
-          <div class="service-grid">
-            <article class="service-card reveal">
-              <div class="icon-mark">SP</div>
-              <h3>Forklift Spare Parts</h3>
-              <p>Complete parts support to keep your equipment running and reduce downtime.</p>
-              <ul>
-                <li>Engine components: filter, piston, gasket, radiator, starter</li>
-                <li>Hydraulic system: pump, hose, cylinder, valve</li>
-                <li>Electrical system: controller, sensor, wiring</li>
-                <li>Chassis components: brake system, wheel, fork, chain</li>
-              </ul>
+              <img src="assets/social-cover.jpg" alt="Banner sosial media PT HLA" />
             </article>
 
-            <article class="service-card reveal">
-              <div class="icon-mark">ST</div>
-              <h3>Industrial Tire / Solid Tire</h3>
-              <p>Durable tire solutions designed for heavy-duty forklift and industrial wheel operations.</p>
-              <ul>
-                <li>Solid tire</li>
-                <li>Forklift tire</li>
-                <li>Industrial wheel</li>
-                <li>High durability, heavy load capability, and reduced downtime</li>
-              </ul>
-            </article>
-
-            <article class="service-card reveal">
-              <div class="icon-mark">SV</div>
-              <h3>Heavy Equipment Service</h3>
-              <p>Experienced technicians provide reliable service for productivity and operating efficiency.</p>
-              <ul>
-                <li>Preventive maintenance and troubleshooting</li>
-                <li>Forklift repair and component replacement</li>
-                <li>Engine overhaul and restoration</li>
-                <li>Tune-up, cooling system, injection, and combustion checks</li>
-              </ul>
+            <article class="tab-panel" data-panel="service">
+              <div>
+                <span class="panel-number">05</span>
+                <h3 data-i18n="maintenanceTitle">Heavy Equipment Maintenance & Repair</h3>
+                <p data-i18n="maintenanceDesc">Teknisi berpengalaman untuk preventive maintenance, troubleshooting, repair, component replacement, engine overhaul, dan restorasi.</p>
+                <ul class="check-list">
+                  <li data-i18n="servicePoint1">Preventive maintenance</li>
+                  <li data-i18n="servicePoint2">Forklift repair & troubleshooting</li>
+                  <li data-i18n="servicePoint3">Engine overhaul & restoration</li>
+                </ul>
+              </div>
+              <img src="assets/social-restoration.jpg" alt="Proses restorasi dan service forklift" />
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section why-section" id="why" aria-labelledby="why-title">
+      <section class="section solution-section" id="solutions" aria-labelledby="solutions-title">
         <div class="container">
           <div class="section-heading narrow reveal">
-            <p class="eyebrow dark">Why Choose Us</p>
-            <h2 id="why-title">Built for industrial reliability</h2>
+            <p class="eyebrow dark" data-i18n="solutionsEyebrow">Solusi Operasional</p>
+            <h2 id="solutions-title" data-i18n="solutionsTitle">Dirancang untuk ritme kerja pabrik, warehouse, dan logistics</h2>
           </div>
-          <div class="why-grid">
-            <article class="why-card reveal">
+          <div class="solution-grid">
+            <article class="solution-card reveal tilt-card" data-tilt>
               <span>01</span>
-              <h3>10+ Years Experience</h3>
-              <p>Experienced in industrial equipment solutions and material-handling support.</p>
+              <h3 data-i18n="why1Title">10+ Tahun Pengalaman</h3>
+              <p data-i18n="why1Desc">Berpengalaman dalam solusi industrial equipment dan material handling.</p>
             </article>
-            <article class="why-card reveal">
+            <article class="solution-card reveal tilt-card" data-tilt>
               <span>02</span>
-              <h3>Fast Response</h3>
-              <p>Technical support when operational continuity matters most.</p>
+              <h3 data-i18n="why2Title">Respons Cepat</h3>
+              <p data-i18n="why2Desc">Dukungan teknis saat kelancaran operasional menjadi prioritas.</p>
             </article>
-            <article class="why-card reveal">
+            <article class="solution-card reveal tilt-card" data-tilt>
               <span>03</span>
-              <h3>Complete Solution</h3>
-              <p>Rental, unit trading, spare parts, tire, and service in one partner.</p>
+              <h3 data-i18n="why3Title">Solusi Lengkap</h3>
+              <p data-i18n="why3Desc">Rental, trading unit, sparepart, ban, dan service dalam satu partner.</p>
             </article>
-            <article class="why-card reveal">
+            <article class="solution-card reveal tilt-card" data-tilt>
               <span>04</span>
-              <h3>Industrial Expertise</h3>
-              <p>Understanding factory, warehouse, and logistics requirements.</p>
+              <h3 data-i18n="why4Title">Paham Kebutuhan Industri</h3>
+              <p data-i18n="why4Desc">Memahami kebutuhan pabrik, warehouse, logistics, dan distribution center.</p>
             </article>
           </div>
         </div>
       </section>
 
       <section class="section industries-section" id="industries" aria-labelledby="industries-title">
-        <div class="container two-column compact">
+        <div class="container industries-layout">
           <div class="section-copy reveal">
-            <p class="eyebrow dark">Industries We Serve</p>
-            <h2 id="industries-title">Supporting operational growth across industrial sectors</h2>
-            <p>
-              PT HLA serves businesses that depend on safe, efficient, and reliable material movement: factories, warehouses, construction sites, logistics operators, distribution centers, and industrial support operations.
+            <p class="eyebrow dark" data-i18n="industriesEyebrow">Industri yang Kami Layani</p>
+            <h2 id="industries-title" data-i18n="industriesTitle">Mendukung pertumbuhan operasional berbagai sektor industri</h2>
+            <p data-i18n="industriesDesc">
+              PT HLA melayani bisnis yang membutuhkan pergerakan material yang aman, efisien, dan andal: pabrik, gudang, operator logistik, distribution center, construction, dan industrial support.
             </p>
           </div>
-          <div class="industry-grid reveal">
-            <span>Manufacturing</span>
-            <span>Warehouse & Logistics</span>
-            <span>Construction</span>
-            <span>Mining Support</span>
-            <span>Distribution Center</span>
-            <span>Industrial Estates</span>
+          <div class="industry-map reveal" aria-label="Daftar industri">
+            <button type="button" data-industry="Manufacturing"><span>🏭</span><b data-i18n="industry1">Manufaktur</b></button>
+            <button type="button" data-industry="Warehouse"><span>📦</span><b data-i18n="industry2">Warehouse & Logistics</b></button>
+            <button type="button" data-industry="Construction"><span>🚧</span><b data-i18n="industry3">Konstruksi</b></button>
+            <button type="button" data-industry="Mining"><span>⛏</span><b data-i18n="industry4">Mining Support</b></button>
+            <button type="button" data-industry="Distribution"><span>🚚</span><b data-i18n="industry5">Distribution Center</b></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section process-section" aria-labelledby="process-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow dark" data-i18n="processEyebrow">Alur Kerja</p>
+            <h2 id="process-title" data-i18n="processTitle">Dari konsultasi sampai dukungan operasional</h2>
+          </div>
+          <div class="process-steps">
+            <article class="process-card reveal"><span>1</span><h3 data-i18n="process1Title">Konsultasi Kebutuhan</h3><p data-i18n="process1Desc">Ceritakan kapasitas, lokasi kerja, durasi, dan masalah unit.</p></article>
+            <article class="process-card reveal"><span>2</span><h3 data-i18n="process2Title">Rekomendasi Solusi</h3><p data-i18n="process2Desc">Tim menyarankan unit, sparepart, ban, atau jenis service yang sesuai.</p></article>
+            <article class="process-card reveal"><span>3</span><h3 data-i18n="process3Title">Penawaran & Jadwal</h3><p data-i18n="process3Desc">Anda menerima quotation dan jadwal pengiriman atau kunjungan teknisi.</p></article>
+            <article class="process-card reveal"><span>4</span><h3 data-i18n="process4Title">Eksekusi & Support</h3><p data-i18n="process4Desc">Unit, parts, ban, atau service diproses dengan dukungan operasional.</p></article>
           </div>
         </div>
       </section>
@@ -273,111 +341,99 @@
       <section class="section gallery-section" id="gallery" aria-labelledby="gallery-title">
         <div class="container">
           <div class="section-heading reveal">
-            <p class="eyebrow dark">Equipment Gallery</p>
-            <h2 id="gallery-title">Real equipment visuals from PT HLA social media</h2>
-            <p>Use these images as production placeholders from PT HLA’s public social media assets. Replace them with official high-resolution files when available.</p>
+            <p class="eyebrow dark" data-i18n="galleryEyebrow">Galeri Equipment</p>
+            <h2 id="gallery-title" data-i18n="galleryTitle">Dokumentasi unit, rental, service, dan restorasi</h2>
+            <p data-i18n="galleryDesc">Klik gambar untuk melihat preview lebih besar. Foto menggunakan aset media PT HLA yang tersedia di paket website.</p>
           </div>
-          <div class="gallery-grid">
-            <figure class="gallery-item large reveal">
-              <img src="assets/social-cover.jpg" alt="PT HLA forklift fleet cover photo" />
-              <figcaption>Forklift fleet and heavy-equipment operations</figcaption>
-            </figure>
-            <figure class="gallery-item reveal">
-              <img src="assets/social-fleet.jpg" alt="Forklift fleet in warehouse" />
-              <figcaption>Warehouse-ready forklift units</figcaption>
-            </figure>
-            <figure class="gallery-item reveal">
-              <img src="assets/social-rental.jpg" alt="Forklift rental unit delivery" />
-              <figcaption>Rental forklift delivery</figcaption>
-            </figure>
-            <figure class="gallery-item reveal">
-              <img src="assets/social-restoration.jpg" alt="Forklift restoration and service" />
-              <figcaption>Restoration & service support</figcaption>
-            </figure>
-            <figure class="gallery-item reveal">
-              <img src="assets/social-gallery.jpg" alt="Forklift and heavy equipment collage" />
-              <figcaption>Equipment fleet, workshop, and field support</figcaption>
-            </figure>
+          <div class="gallery-grid" data-gallery>
+            <button class="gallery-item large reveal" type="button" data-img="assets/social-fleet.jpg" data-caption="Armada forklift PT HLA"><img src="assets/social-fleet.jpg" alt="Armada forklift PT HLA" /><span data-i18n="galleryCap1">Armada forklift</span></button>
+            <button class="gallery-item tall reveal" type="button" data-img="assets/social-rental.jpg" data-caption="Rental forklift harian, bulanan, tahunan"><img src="assets/social-rental.jpg" alt="Rental forklift PT HLA" /><span data-i18n="galleryCap2">Rental forklift</span></button>
+            <button class="gallery-item reveal" type="button" data-img="assets/social-restoration.jpg" data-caption="Service dan restorasi forklift"><img src="assets/social-restoration.jpg" alt="Restorasi forklift PT HLA" /><span data-i18n="galleryCap3">Service & restorasi</span></button>
+            <button class="gallery-item reveal" type="button" data-img="assets/social-gallery.jpg" data-caption="Galeri equipment PT HLA"><img src="assets/social-gallery.jpg" alt="Galeri forklift PT HLA" /><span data-i18n="galleryCap4">Equipment gallery</span></button>
           </div>
         </div>
       </section>
 
-      <section class="section process-section" aria-labelledby="process-title">
-        <div class="container">
-          <div class="section-heading narrow reveal">
-            <p class="eyebrow dark">How We Work</p>
-            <h2 id="process-title">A clear process for quotation and support</h2>
+      <section class="section quote-section" id="quote-form" aria-labelledby="quote-title">
+        <div class="container quote-layout">
+          <div class="quote-info reveal">
+            <p class="eyebrow" data-i18n="quoteEyebrow">Minta Penawaran</p>
+            <h2 id="quote-title" data-i18n="quoteTitle">Butuh dukungan alat berat untuk operasional Anda?</h2>
+            <p data-i18n="quoteDesc">Isi detail singkat. Form ini akan otomatis membuka WhatsApp dengan format pesan yang rapi agar tim PT HLA dapat menindaklanjuti lebih cepat.</p>
+            <div class="contact-mini">
+              <a href="tel:+62218975607">(021) 897 5607 / 08</a>
+              <a href="mailto:hasialivina.abadi@gmail.com">hasialivina.abadi@gmail.com</a>
+              <a href="https://www.instagram.com/pt.hla/" target="_blank" rel="noreferrer">Instagram @pt.hla</a>
+            </div>
           </div>
-          <ol class="process-grid">
-            <li class="reveal"><span>01</span><strong>Consult Requirement</strong><p>Share capacity, height, terrain, rental period, location, and application.</p></li>
-            <li class="reveal"><span>02</span><strong>Recommend Solution</strong><p>We recommend unit, tire, parts, or service options based on your operation.</p></li>
-            <li class="reveal"><span>03</span><strong>Quotation & Scheduling</strong><p>Receive quotation details and align delivery, maintenance, or workshop schedule.</p></li>
-            <li class="reveal"><span>04</span><strong>Technical Support</strong><p>Our team supports operations through maintenance, repair, and follow-up service.</p></li>
-          </ol>
+
+          <form class="quote-form reveal" data-quote-form>
+            <label>
+              <span data-i18n="formName">Nama / Perusahaan</span>
+              <input type="text" name="name" required placeholder="Contoh: PT ABC Manufacturing" data-i18n-placeholder="formNamePlaceholder" />
+            </label>
+            <label>
+              <span data-i18n="formService">Layanan yang dibutuhkan</span>
+              <select name="service" required>
+                <option value="" data-i18n="formChoose">Pilih layanan</option>
+                <option value="Rental Forklift" data-i18n="serviceRental">Rental Forklift</option>
+                <option value="Forklift Sales / Trading" data-i18n="serviceSales">Forklift Sales / Trading</option>
+                <option value="Sparepart Forklift" data-i18n="serviceParts">Sparepart Forklift</option>
+                <option value="Ban Solid / Ban Industri" data-i18n="serviceTires">Ban Solid / Ban Industri</option>
+                <option value="Maintenance / Repair" data-i18n="serviceMaintenance">Maintenance / Repair</option>
+                <option value="Engine Overhaul / Restorasi" data-i18n="serviceOverhaul">Engine Overhaul / Restorasi</option>
+              </select>
+            </label>
+            <label>
+              <span data-i18n="formMessage">Detail kebutuhan</span>
+              <textarea name="message" rows="5" required placeholder="Tuliskan kapasitas forklift, periode rental, lokasi kerja, atau masalah unit..." data-i18n-placeholder="formMessagePlaceholder"></textarea>
+            </label>
+            <button class="btn btn-primary btn-with-icon" type="submit">
+              <img src="assets/whatsapp.svg" alt="" aria-hidden="true" />
+              <span data-i18n="sendWhatsapp">Kirim via WhatsApp</span>
+            </button>
+          </form>
         </div>
       </section>
 
-      <section class="cta-section" aria-labelledby="cta-title">
-        <div class="container cta-panel reveal">
-          <div>
-            <p class="eyebrow">Customer CTA</p>
-            <h2 id="cta-title">Need heavy equipment support?</h2>
-            <p>Let our team provide the right solution for your operational needs.</p>
+      <section class="section faq-section" aria-labelledby="faq-title">
+        <div class="container faq-layout">
+          <div class="section-copy reveal">
+            <p class="eyebrow dark" data-i18n="faqEyebrow">FAQ</p>
+            <h2 id="faq-title" data-i18n="faqTitle">Pertanyaan umum</h2>
           </div>
-          <a class="btn btn-primary" href="https://wa.me/6281585267190?text=Hello%20PT%20HLA%2C%20I%20need%20heavy%20equipment%20support.%20Please%20help%20me%20with%20a%20quotation." target="_blank" rel="noreferrer">Contact Our Team</a>
+          <div class="faq-list reveal" data-accordion>
+            <details open>
+              <summary data-i18n="faq1Q">Apakah bisa rental forklift harian, bulanan, dan tahunan?</summary>
+              <p data-i18n="faq1A">Bisa. PT HLA menyediakan solusi rental fleksibel sesuai kebutuhan operasional, mulai dari kebutuhan jangka pendek sampai kerja sama jangka panjang.</p>
+            </details>
+            <details>
+              <summary data-i18n="faq2Q">Apakah PT HLA menyediakan sparepart dan ban solid?</summary>
+              <p data-i18n="faq2A">Ya. Website ini menampilkan dukungan sparepart forklift, solid tire, industrial tire, dan kebutuhan komponen lain untuk operasional alat berat.</p>
+            </details>
+            <details>
+              <summary data-i18n="faq3Q">Apakah tersedia service, overhaul, dan restorasi?</summary>
+              <p data-i18n="faq3A">Ya. Layanan mencakup maintenance, repair, troubleshooting, component replacement, engine overhaul, dan restorasi unit.</p>
+            </details>
+          </div>
         </div>
       </section>
 
       <section class="section contact-section" id="contact" aria-labelledby="contact-title">
         <div class="container contact-grid">
-          <div class="contact-details reveal">
-            <p class="eyebrow dark">Contact Page</p>
-            <h2 id="contact-title">PT Hasia Livina Abadi</h2>
-            <div class="contact-card">
-              <strong>Address</strong>
-              <p>Ruko Palazzo Blok AB No.65<br />Jl. Villa Mutiara Cikarang<br />Ciantra, Cikarang Selatan<br />Bekasi, Jawa Barat 17530</p>
-            </div>
-            <div class="contact-row">
-              <div class="contact-card"><strong>Phone</strong><a href="tel:+62218975607">(021) 897 5607 / 08</a></div>
-              <div class="contact-card"><strong>WhatsApp</strong><a href="https://wa.me/6281585267190" target="_blank" rel="noreferrer">081585267190</a></div>
-              <div class="contact-card"><strong>Email</strong><a href="mailto:hasialivina.abadi@gmail.com">hasialivina.abadi@gmail.com</a></div>
-              <div class="contact-card"><strong>Social Media</strong><a href="https://www.instagram.com/pt.hla/" target="_blank" rel="noreferrer">Instagram @pt.hla</a><a href="https://id.linkedin.com/company/pt-hla" target="_blank" rel="noreferrer">LinkedIn PT HLA</a></div>
+          <div class="contact-card reveal">
+            <p class="eyebrow dark" data-i18n="contactEyebrow">Kontak</p>
+            <h2 id="contact-title">PT HASIA LIVINA ABADI</h2>
+            <div class="contact-list">
+              <p><strong data-i18n="addressLabel">Alamat:</strong><br />Ruko Palazzo Blok AB No.65<br />Jl. Villa Mutiara Cikarang<br />Ciantra, Cikarang Selatan<br />Bekasi, Jawa Barat</p>
+              <p><strong data-i18n="phoneLabel">Telepon:</strong><br /><a href="tel:+62218975607">(021) 897 5607 / 08</a></p>
+              <p><strong>WhatsApp:</strong><br /><a href="https://wa.me/6281585267190" target="_blank" rel="noreferrer">0815 8526 7190</a></p>
+              <p><strong>Email:</strong><br /><a href="mailto:hasialivina.abadi@gmail.com">hasialivina.abadi@gmail.com</a></p>
             </div>
           </div>
-
-          <form class="quote-form reveal" id="quote-form" data-quote-form>
-            <span class="form-label">Request a Quotation</span>
-            <label>
-              Name / Company
-              <input name="name" type="text" placeholder="Your company name" required />
-            </label>
-            <label>
-              Service Needed
-              <select name="service" required>
-                <option value="">Select service</option>
-                <option>Forklift rental</option>
-                <option>Forklift sales / trading</option>
-                <option>Forklift spare parts</option>
-                <option>Solid tire / industrial tire</option>
-                <option>Maintenance & repair</option>
-                <option>Engine overhaul / restoration</option>
-              </select>
-            </label>
-            <label>
-              Message
-              <textarea name="message" rows="5" placeholder="Tell us your capacity, rental period, location, or equipment problem..." required></textarea>
-            </label>
-            <button class="btn btn-primary" type="submit">Send via WhatsApp</button>
-            <p class="form-note">The form opens WhatsApp with your inquiry message. No backend is required.</p>
-          </form>
-        </div>
-        <div class="container map-wrap reveal">
-          <iframe
-            title="PT Hasia Livina Abadi location map"
-            src="https://www.google.com/maps?q=Ruko%20Palazzo%20Blok%20AB%20No.65%20Jl.%20Villa%20Mutiara%20Cikarang%20Ciantra%20Cikarang%20Selatan%20Bekasi%20Jawa%20Barat%2017530&output=embed"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+          <div class="map-card reveal">
+            <iframe title="Lokasi PT Hasia Livina Abadi di Google Maps" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Ruko%20Palazzo%20Blok%20AB%20No.65%20Villa%20Mutiara%20Cikarang&output=embed"></iframe>
+          </div>
         </div>
       </section>
     </main>
@@ -385,32 +441,32 @@
     <footer class="site-footer">
       <div class="container footer-grid">
         <div>
-          <img src="assets/logo.svg" alt="PT HLA logo" />
-          <p>Reliable Heavy Equipment Solutions for Industrial Growth.</p>
+          <a class="brand footer-brand" href="#home">
+            <img src="assets/logo.svg" alt="Logo PT HLA" />
+            <span><strong>PT HASIA LIVINA ABADI</strong><small data-i18n="brandTag">Solusi Alat Berat Industri</small></span>
+          </a>
+          <p data-i18n="footerDesc">Reliable Heavy Equipment Solutions for Industrial Growth.</p>
         </div>
-        <div>
-          <strong>Services</strong>
-          <a href="#services">Forklift Rental</a>
-          <a href="#services">Forklift Sales</a>
-          <a href="#services">Spare Parts</a>
-          <a href="#services">Solid Tire</a>
-        </div>
-        <div>
-          <strong>Contact</strong>
-          <a href="tel:+62218975607">(021) 897 5607 / 08</a>
-          <a href="https://wa.me/6281585267190" target="_blank" rel="noreferrer">WhatsApp 081585267190</a>
-          <a href="mailto:hasialivina.abadi@gmail.com">hasialivina.abadi@gmail.com</a>
+        <div class="footer-links">
+          <a href="#about" data-i18n="navAbout">Tentang</a>
+          <a href="#services" data-i18n="navServices">Layanan</a>
+          <a href="#gallery" data-i18n="navGallery">Galeri</a>
+          <a href="#contact" data-i18n="navContact">Kontak</a>
         </div>
       </div>
-      <div class="container footer-bottom">
-        <span>© <span data-year></span> PT Hasia Livina Abadi. All rights reserved.</span>
-        <span>Website concept: industrial B2B company profile.</span>
-      </div>
+      <div class="container copyright">© <span data-year></span> PT Hasia Livina Abadi. <span data-i18n="allRights">All rights reserved.</span></div>
     </footer>
 
-    <a class="floating-wa" href="https://wa.me/6281585267190?text=Hello%20PT%20HLA%2C%20I%20would%20like%20to%20ask%20about%20your%20heavy%20equipment%20solutions." target="_blank" rel="noreferrer" aria-label="Chat with PT HLA on WhatsApp">
-      WA
+    <a class="whatsapp-float" href="https://wa.me/6281585267190?text=Halo%20PT%20HLA%2C%20saya%20ingin%20konsultasi%20kebutuhan%20alat%20berat." target="_blank" rel="noreferrer" aria-label="Chat WhatsApp PT HLA">
+      <span><img src="assets/whatsapp.svg" alt="" aria-hidden="true" /></span>
+      <b data-i18n="floatWA">Konsultasi</b>
     </a>
+
+    <dialog class="image-modal" data-modal>
+      <button class="modal-close" type="button" data-modal-close aria-label="Tutup galeri">×</button>
+      <img src="" alt="" data-modal-image />
+      <p data-modal-caption></p>
+    </dialog>
 
     <script src="script.js"></script>
   </body>

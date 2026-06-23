@@ -1,11 +1,26 @@
-<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="128" height="128" rx="30" fill="#07111F"/>
-  <path d="M22 82.5H106" stroke="#F28C28" stroke-width="8" stroke-linecap="round"/>
-  <path d="M30 47H49V73H30V47Z" fill="#FFC247"/>
-  <path d="M55 35H74V73H55V35Z" fill="#F28C28"/>
-  <path d="M80 47H99V73H80V47Z" fill="#FFC247"/>
-  <path d="M26 91H102" stroke="white" stroke-opacity="0.9" stroke-width="5" stroke-linecap="round"/>
-  <circle cx="41" cy="94" r="8" fill="#0B1828" stroke="#FFC247" stroke-width="4"/>
-  <circle cx="89" cy="94" r="8" fill="#0B1828" stroke="#FFC247" stroke-width="4"/>
-  <text x="64" y="31" text-anchor="middle" font-family="Arial, sans-serif" font-weight="900" font-size="20" fill="white">HLA</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="PT Hasia Livina Abadi">
+  <defs>
+    <linearGradient id="shield" x1="84" y1="428" x2="420" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#102033"/>
+      <stop offset="1" stop-color="#1d3a5d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="96" y1="398" x2="415" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffc247"/>
+      <stop offset="0.55" stop-color="#f28c28"/>
+      <stop offset="1" stop-color="#d76010"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#050b14"/>
+  <path d="M256 44 424 106v126c0 106-66 191-168 236C154 423 88 338 88 232V106L256 44Z" fill="url(#shield)" filter="url(#shadow)"/>
+  <path d="M256 68 398 120v109c0 91-55 164-142 204-87-40-142-113-142-204V120L256 68Z" fill="none" stroke="url(#accent)" stroke-width="18"/>
+  <path d="M150 326h212c18 0 33 15 33 33v19H117v-19c0-18 15-33 33-33Z" fill="url(#accent)"/>
+  <path d="M162 303h33v-65h48v65h31V176h-31v38h-48v-38h-33v127Zm130 0h88v-28h-56v-99h-32v127Z" fill="#fff"/>
+  <path d="M352 198h29l46 105h-35l-7-18h-40l-7 18h-33l47-105Zm24 64-11-29-11 29h22Z" fill="#fff"/>
+  <path d="M129 340h44v46h-44zM340 340h44v46h-44z" fill="#07111f" opacity=".55"/>
+  <path d="M152 364h208" stroke="#07111f" stroke-opacity=".58" stroke-width="13" stroke-linecap="round"/>
+  <path d="M126 140h84M302 140h84" stroke="url(#accent)" stroke-width="12" stroke-linecap="round" opacity=".9"/>
 </svg>
