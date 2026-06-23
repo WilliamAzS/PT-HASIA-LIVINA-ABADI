@@ -128,6 +128,7 @@ const translations = {
     "phoneLabel": "Telepon:",
     "footerDesc": "Reliable Heavy Equipment Solutions for Industrial Growth.",
     "allRights": "All rights reserved.",
+    "openMaps": "Buka lokasi PT HLA di Google Maps",
     "floatWA": "Konsultasi"
   },
   "en": {
@@ -259,6 +260,7 @@ const translations = {
     "phoneLabel": "Phone:",
     "footerDesc": "Reliable Heavy Equipment Solutions for Industrial Growth.",
     "allRights": "All rights reserved.",
+    "openMaps": "Open PT HLA location on Google Maps",
     "floatWA": "Consult"
   },
   "ja": {
@@ -390,6 +392,7 @@ const translations = {
     "phoneLabel": "電話:",
     "footerDesc": "Reliable Heavy Equipment Solutions for Industrial Growth.",
     "allRights": "All rights reserved.",
+    "openMaps": "Google マップでPT HLAの所在地を開く",
     "floatWA": "相談"
   },
   "zh": {
@@ -521,6 +524,7 @@ const translations = {
     "phoneLabel": "电话:",
     "footerDesc": "Reliable Heavy Equipment Solutions for Industrial Growth.",
     "allRights": "All rights reserved.",
+    "openMaps": "在 Google 地图中打开 PT HLA 位置",
     "floatWA": "咨询"
   }
 };

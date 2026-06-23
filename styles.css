@@ -401,3 +401,25 @@ details p { padding: 0 22px 22px; margin: 0; color: var(--muted-2); }
     border-radius: 10px;
   }
 }
+
+
+.map-open-link {
+  position: absolute;
+  left: 18px;
+  bottom: 18px;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, .88);
+  color: #fff;
+  font-weight: 900;
+  font-size: 13px;
+  box-shadow: 0 16px 34px rgba(2, 8, 23, .28);
+  backdrop-filter: blur(10px);
+}
+.map-open-link:hover { transform: translateY(-2px); }
+[data-theme="light"] .map-open-link { background: rgba(15, 23, 42, .9); color: #fff; }
+.map-card { position: relative; }
