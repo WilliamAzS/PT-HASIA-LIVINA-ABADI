@@ -85,3 +85,5 @@ git push -u origin main
 ## Latest update
 
 - Replaced the placeholder/site logo with the user-provided PT HLA Forklift Specialist logo and prepared a transparent PNG asset for web use.
+
+- Fixed visibility of the dark PT HLA logo on dark sections by placing it inside a bright rounded logo container.
