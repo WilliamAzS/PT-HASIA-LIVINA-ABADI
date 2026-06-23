@@ -80,3 +80,8 @@ git push -u origin main
 - Terjemahan Indonesia/English/Japanese/Chinese ada di object `translations` pada file `script.js`.
 - `assets/logo.svg` adalah logo HLA custom yang lebih premium; ganti dengan logo resmi perusahaan jika sudah tersedia.
 - `assets/whatsapp.svg` dipakai untuk tombol WhatsApp dan floating contact button.
+
+
+## Latest update
+
+- Replaced the placeholder/site logo with the user-provided PT HLA Forklift Specialist logo and prepared a transparent PNG asset for web use.

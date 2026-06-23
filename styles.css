@@ -348,3 +348,19 @@ details p { padding: 0 22px 22px; margin: 0; color: var(--muted-2); }
   .whatsapp-float b { display:none; }
   .whatsapp-float { padding: 10px; }
 }
+
+
+/* Updated brand logo using official PT HLA artwork */
+
+.brand { display: inline-flex; align-items: center; gap: 12px; min-width: auto; }
+.brand img, .brand-logo-wide { width: clamp(152px, 17vw, 260px); height: auto; max-height: 58px; object-fit: contain; filter: drop-shadow(0 14px 28px rgba(242, 140, 40, .24)); transition: transform .2s var(--ease), filter .2s ease; }
+.brand:hover img, .brand:hover .brand-logo-wide { transform: translateY(-1px) scale(1.01); filter: drop-shadow(0 18px 34px rgba(242, 140, 40, .34)); }
+.footer-logo-wide { width: clamp(180px, 20vw, 300px); max-height: 72px; }
+
+@media (max-width: 900px) {
+  .brand img, .brand-logo-wide { width: 150px; max-height: 46px; }
+  .footer-logo-wide { width: 190px; max-height: 52px; }
+}
+@media (max-width: 640px) {
+  .brand img, .brand-logo-wide { width: 128px; max-height: 40px; }
+}
